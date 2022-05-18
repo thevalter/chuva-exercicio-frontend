@@ -1,0 +1,131 @@
+@media screen and (max-width: 955px){
+    
+    .side-menu{
+        position: relative;
+        width: 100%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    main{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    footer{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .top-nome-evento{
+        width: 100%;
+        height: 80px;
+        font-size: 2rem;
+    }
+
+    .sidebar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-item-wrapper{
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .menu-item:hover{
+        border-top: 5px solid #ffb354;
+        border-left: 0px;
+    }
+
+    .card-icons{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 783px){
+
+    header{
+        height: 110px;
+    }
+
+    .header-container-right{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item-logo{
+        width: 30%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 648px){
+
+    .header-container-right{
+        display: none;
+    }
+
+    .header-container-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar{
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+
+    }
+
+    .menu-item-wrapper{
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+    }
+
+    .menu-item{
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 10px 15px;
+        color: #ffb354;
+    }
+
+    .menu-item:hover{
+        border-top: 0px;
+        border-right: 4px solid #ffb354;
+    }
+
+    .main-content-top{
+        flex-direction: column;
+    }
+
+    .content-top-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-btn-wrapper{
+        width: 100%;
+        align-items: center;
+    }
+}
